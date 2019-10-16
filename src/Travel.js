@@ -7,7 +7,7 @@ const Travel = ({ destination, country, image, distance }) => (
         <img src={image} />
         <p>Distance: {distance}</p>
     </div>
-)
+);
 
 
 export default Travel;
